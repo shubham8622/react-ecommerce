@@ -1,0 +1,60 @@
+.summer-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    position: relative;
+    top: 151px;
+    left: 126px;
+    max-width: 40rem;
+  }
+.summer-collection h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7CC7;
+    position: relative;
+}
+.summer-collection h1{
+    font-weight: 700;   
+    font-size: 58px;
+    text-transform: uppercase;
+}
+.summer-collection h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: #737373;
+    width: 376px;
+    line-height: 30px;
+}
+.summer-collection .shop-now{
+    width: 221px;
+    height: 62px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.summer-collection .shop-now a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.banner-image {
+    width: 40rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 5rem;
+    z-index: 3;
+}
+.circle {
+    position: absolute;
+    width: 31rem;
+    height: 31rem;
+    top: -15px;
+    right: 6rem;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 50%;
+}

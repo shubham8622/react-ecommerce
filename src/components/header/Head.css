@@ -1,0 +1,95 @@
+.logo-navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 111px;
+}
+.header-logo h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.header-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 34px;
+}
+.header-navigation ul.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    list-style: none;
+}
+.header-navigation ul.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.header-navigation ul li a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+}
+.header-navigation ul li a:hover{
+    font-weight: 500;
+    color: #252B42;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+}
+
+.right-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.login-register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.login-register img.user-icon {
+    width: 12px;
+    height: 12px;
+}
+.login-btn span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #23A6F0;
+}
+.carticon,
+.whishlisticon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.carticon span,
+.whishlisticon span{
+    color: #23A6F0;
+    font-size: 12px;
+}
+.searchicon img,
+.carticon img {
+    width: 16px;
+    height: 16px;
+}
+.whishlisticon img{
+    width: 16px;
+    height: 15px;
+}
+.searchicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
