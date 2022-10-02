@@ -65,6 +65,10 @@
   .add-to-cart p{
     font-size: 18px;
   }
+  .card{
+    gap: 0px;
+    height: 475px;
+  }
 }
 @media (max-width:1024px){
   .logo-navigation{
