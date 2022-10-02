@@ -130,6 +130,10 @@
       gap: 1rem;
       align-items: center;
   }
+  .mobile-cart span {
+    color: #23a6f0;
+    font-size: 12px;
+}
   .circle {
     width: 16rem;
     height: 16rem;
