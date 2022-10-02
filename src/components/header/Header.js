@@ -50,6 +50,10 @@ const Header = () =>{
                             </div>
                         </div>
                         <div className="bars">
+                        <div className="mobile-cart">
+                            <img src={cart} alt="" />
+                            <span> {count} </span>
+                        </div>
                         <i class="fa-solid fa-bars"></i>
                         </div>
                     </div>

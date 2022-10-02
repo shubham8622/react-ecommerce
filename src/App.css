@@ -117,11 +117,18 @@
 
 @media (max-width:960px){
   .right-navigation,
+  .right-navigation .login-register,
+  .right-navigation .searchicon,
+  .right-navigation .whishlisticon,
   .header-navigation{
     display: none;
   }
   .bars{
-    display: block;
+      display: block;
+      display: flex;
+      justify-content: flex-start;
+      gap: 1rem;
+      align-items: center;
   }
   .circle {
     width: 16rem;
