@@ -49,6 +49,9 @@ const Header = () =>{
                                 <span> 1 </span>
                             </div>
                         </div>
+                        <div className="bars">
+                        <i class="fa-solid fa-bars"></i>
+                        </div>
                     </div>
                 </div>
             </header>

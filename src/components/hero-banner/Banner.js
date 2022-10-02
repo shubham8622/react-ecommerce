@@ -14,9 +14,14 @@ const Banner = () =>{
                         </div>
                     </div>
                 </div>
+                <div className="image-section">
                 <div className="circle"></div>
+                <div className="medium"></div>
+                <div className="small"></div>
+                <div className="purple"></div>
                 <div className="banner-image">
                     <img src={girl} alt="" />
+                </div>
                 </div>
             </section>
         </>
